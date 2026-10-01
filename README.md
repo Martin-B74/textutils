@@ -20,3 +20,14 @@ print(textutils.word_count(sample_text))  # Output: 2
 
 # Capitalize words
 print(textutils.capitalize_words(sample_text))  # Output: Hello World
+```
+
+## Contributing
+Contributions are welcome! If you would like to contribute, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes with clear messages.
+4. Push your branch and open a Pull Request.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
