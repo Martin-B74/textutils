@@ -1,4 +1,5 @@
 import pytest
+
 from textutils import capitalize_words
 
 
@@ -9,7 +10,6 @@ from textutils import capitalize_words
         ("hello world", "Hello World"),
         ("open source development", "Open Source Development"),
         ("python", "Python"),
-
         ("", ""),
         ("   ", "   "),
         ("a", "A"),

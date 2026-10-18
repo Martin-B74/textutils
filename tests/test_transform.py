@@ -1,4 +1,5 @@
 import pytest
+
 from textutils import reverse
 
 
@@ -9,7 +10,6 @@ from textutils import reverse
         ("Hello", "olleH"),
         ("Hello World", "dlroW olleH"),
         ("12345", "54321"),
-        
         ("", ""),
         ("a", "a"),
         ("   ", "   "),

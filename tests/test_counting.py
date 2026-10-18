@@ -1,4 +1,5 @@
 import pytest
+
 from textutils import character_count, phrase_count, word_count
 
 
@@ -9,7 +10,6 @@ from textutils import character_count, phrase_count, word_count
         ("Hello", 1),
         ("Hello World", 2),
         ("Open Source Development", 3),
-
         ("", 0),
         ("   ", 0),
         ("Hello    World", 2),
@@ -33,7 +33,6 @@ def test_word_count_invalid_input(invalid_input):
     [
         ("Hello", 5),
         ("Hello World!", 12),
-
         ("", 0),
         (" ", 1),
         ("   ", 3),
@@ -56,7 +55,6 @@ def test_character_count_invalid_input(invalid_input):
     [
         ("Hello world.", 1),
         ("Hello! How are you? Fine.", 3),
-        
         ("", 0),
         ("Hello world without punctuation", 0),
         ("...", 3),
