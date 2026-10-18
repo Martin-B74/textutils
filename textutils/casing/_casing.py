@@ -7,5 +7,10 @@ def capitalize_words(text):
 
     Returns:
         str: A new string with the first letter of each word capitalized.
+
+    Raises:
+        TypeError: If text is not a string.
     """
+    if not isinstance(text, str):
+        raise TypeError("text must be a string")
     return text.title()
