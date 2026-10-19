@@ -26,7 +26,7 @@ line-length = 88
 line-length = 88
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["textutils/tests"]
 
 [tool.coverage.run]
 branch = true
