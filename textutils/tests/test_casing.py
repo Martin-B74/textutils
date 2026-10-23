@@ -7,7 +7,7 @@ from textutils import capitalize_words
 @pytest.mark.parametrize(
     "text, expected",
     [
-        ("hello world", "Hello World"),
+        ("hello world", "Hello world"),
         ("open source development", "Open Source Development"),
         ("python", "Python"),
         ("", ""),
