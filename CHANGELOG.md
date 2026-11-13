@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.1]
+### Fixed
+- Renaming the package textutils to textutils_MB in order to avoid conflicts on PyPi
+
 ## [1.0.0]
 ### Added
 - Initial release of the textutils library
