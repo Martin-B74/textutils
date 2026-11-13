@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "textutils"
-version = "1.0.0"
+name = "textutils_MB"
+version = "1.0.1"
 description = "A lightweight Python library for common text-processing operations."
 readme = "README.md"
 license = { file = "LICENSE" }
